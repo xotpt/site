@@ -50,13 +50,13 @@
 .docs-example h6 {
   margin-bottom: 1rem; }
 .fake-nav {
-  font-size: 14px;
+  font-size: 4.0rem;
   font-weight: 600;
   letter-spacing: .2rem;
   word-spacing: 2rem;
   text-align: center;
   text-decoration: none;
-  line-height: 6.5rem;
+  line-height: 6.0rem;
   color: #A45E60;
   }
 .code-example {
