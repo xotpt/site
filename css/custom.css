@@ -3,7 +3,7 @@
 .container-box {
   padding: 2rem;
   border: 1px solid #E7D2B7;
-  margin-bottom: 4rem; 
+  margin-bottom: 2rem; 
   background: rgba(231, 210, 183, 0.15); }
 .header {
   margin-top: 2rem;
@@ -50,7 +50,7 @@
 .docs-example h6 {
   margin-bottom: 1rem; }
 .fake-nav {
-  font-size: 4.0rem;
+  font-size: 2.0rem;
   font-weight: 600;
   letter-spacing: .2rem;
   word-spacing: 2rem;
@@ -84,14 +84,6 @@
 .example-screenshot {
   width: 100%;
   height: auto; }
-.example-screenshot.coming-soon {
-  width: auto;
-  position: absolute;
-  background: #eee;
-  top: 5px;
-  right: 5px;
-  bottom: 5px;
-  left: 5px; }
 .navbar {
   display: none; }
 .image-wrapper{
@@ -125,6 +117,10 @@
   background: #000;
   display: none;
 }
+.one-half.column { 
+  width: 48%;
+  margin-bottom: 2rem; 
+  }
 
 
 /* Larger than phone */
@@ -155,11 +151,25 @@
     left: 0;
     max-height: none; }
   .text {
-    left: 0;
-    position:absolute;
     text-align:center;
-    top: 13rem;
-    width: 100% }
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+    left: 0;}
+  .fake-nav {
+    font-size: 4.0rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    word-spacing: 2rem;
+    text-align: center;
+    text-decoration: none;
+    line-height: 6.0rem;
+    color: #A45E60;
+    }
+  .one-half.column { 
+    width: 48%;
+    margin-bottom: 0rem; 
+    }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
